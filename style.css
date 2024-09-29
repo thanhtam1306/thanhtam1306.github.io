@@ -96,3 +96,43 @@ iframe{
     border: none;
     margin-top: 10px;
 }
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; 
+        padding: 10px; 
+    }
+
+    .photo {
+        padding: 10px; 
+        margin-bottom: 0; 
+    }
+
+    .photo img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .info {
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    .contact {
+        font-size: 12px;
+    }
+
+    .links a {
+        margin-right: 5px; 
+    }
+
+    .news {
+        padding: 10px; 
+    }
+
+    iframe {
+        height: 200px; 
+    }
+}
